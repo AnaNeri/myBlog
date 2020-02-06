@@ -2,13 +2,14 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Nav1 from '../components/Nav';
 import Footer from '../components/Footer'
-import Form from '../components/Form';
 import AboutMe from './AboutMe';
 import Publications from './Publications';
 import Cv from './Cv';
 import HomePage from './HomePage';
 import TextEntry from './Blog/TextEntry';
+import GatePost from './Blog/GatePost';
 import qubit from '../posts/qubit.json';
+import qgate from '../posts/qgate.json';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'; // must import this AND npm install
 import {
   BrowserRouter as Router,
@@ -16,6 +17,7 @@ import {
   Route,
   //Link
 } from "react-router-dom";
+
 
 function App() {
   return (
@@ -31,6 +33,9 @@ function App() {
             <Switch>
               <Route path="/blog/qubit">
                 <TextEntry title={qubit.title} text={qubit.body} />
+              </Route>
+              <Route path="/blog/qgate">
+              	<GatePost title={qgate.title} text={qgate.body} />
               </Route>
               <Route path="/about">
                 <AboutMe />
