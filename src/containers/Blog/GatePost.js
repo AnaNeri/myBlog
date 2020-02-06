@@ -10,12 +10,25 @@ function GatePost({title="Tmp title", text="Hi"}) {
 
   const handleChange = val => setValue(val);
 
+  const [valueState, setValueState] = React.useState("|0>");
+
+  const handleChangeState = valS => setValueState(valS);
+
   return (
     <div>
       <div>
         {title}
       </div>
           {text}
+          <ButtonToolbar>
+          	<ToggleButtonGroup type="radio" name="initState" value={valueState} defaultValue={"|0>"} onChange={handleChangeState}>
+          		<ToggleButton value="|0>"> |0> </ToggleButton>
+          		<ToggleButton value="|1>"> |1> </ToggleButton>
+          		<ToggleButton value="|+>"> |+> </ToggleButton>
+          	</ToggleButtonGroup>
+          </ButtonToolbar>
+
+          <br/>
 
           <ButtonToolbar>
           	<ToggleButtonGroup type="radio" name="gates" value={value} defaultValue={"id"} onChange={handleChange}>
@@ -26,7 +39,7 @@ function GatePost({title="Tmp title", text="Hi"}) {
           	</ToggleButtonGroup>
           </ButtonToolbar>
           
-          <GateActivity gate={value} />
+          <GateActivity gate={value} initState={valueState}/>
     </div>
   );
 }
