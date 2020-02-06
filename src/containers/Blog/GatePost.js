@@ -3,8 +3,12 @@ import GateActivity from '../../components/GateActivity';
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-function GatePost({title="Tmp title", text="Hi"}) {
+
+function GatePostContent({title="Tmp title", text="Hi"}) {
 
   const [value, setValue] = React.useState("id");
 
@@ -16,10 +20,21 @@ function GatePost({title="Tmp title", text="Hi"}) {
 
   return (
     <div>
-      <div>
-        {title}
-      </div>
+    <br/>
+    <Container>
+		<Row>
+		<Col lg={10}>
+			<Row>
+			<Col md={11}>
+			<br/>
+      <h2>{title}</h2>
+      <br/>
+          
           {text}
+
+        <br/>
+        <p> </p>
+          
           <ButtonToolbar>
           	<ToggleButtonGroup type="radio" name="initState" value={valueState} defaultValue={"|0>"} onChange={handleChangeState}>
           		<ToggleButton value="|0>"> |0> </ToggleButton>
@@ -40,6 +55,27 @@ function GatePost({title="Tmp title", text="Hi"}) {
           </ButtonToolbar>
           
           <GateActivity gate={value} initState={valueState}/>
+          	</Col>
+          	</Row>
+          </Col>
+          </Row>
+    </Container>
+    </div>
+  );
+}
+
+function GatePost({title="Tmp title", text="Hi"}) {
+	return (
+    <div>
+       <Container>
+       <Row>
+       <Col md={2}>
+       </Col>
+       <Col md={10}>
+       	<GatePostContent title={title} text={text} />
+       </Col>
+       </Row>  
+	   </Container>
     </div>
   );
 }

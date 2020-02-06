@@ -34,7 +34,7 @@ function App() {
               <Route path="/blog/qubit">
                 <TextEntry title={qubit.title} text={qubit.body} />
               </Route>
-              <Route path="/blog/qgate">
+              <Route path="/blog/quantumGate">
               	<GatePost title={qgate.title} text={qgate.body} />
               </Route>
               <Route path="/about">
