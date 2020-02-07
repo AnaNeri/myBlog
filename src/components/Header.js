@@ -8,8 +8,6 @@ import Col from 'react-bootstrap/Col';
 
 import eu from '../images/eu.jpg';
 
-console.log(eu);
-
 function MeMyselfAndI(){
 	return(
 		<div>
