@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
 function GateActivity({gate="id", initState="|0>"}) {
@@ -28,5 +29,10 @@ function GateActivity({gate="id", initState="|0>"}) {
     </div>
   );
 }
+
+GateActivity.propTypes = {
+  gate: PropTypes.string,
+  initState: PropTypes.string,
+};
 
 export default GateActivity;

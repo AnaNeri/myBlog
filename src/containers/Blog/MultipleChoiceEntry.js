@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
+import PropTypes from 'prop-types';
+
 
 function MultipleChoiceEntryContent({title="Tmp title", text="Hi", questions=[]}) {
   const [value, setValue] = React.useState(null);  
@@ -68,5 +70,17 @@ function MultipleChoiceEntry({title="Tmp title", text="Hi", questions=[]}) {
     </div>
   );
 }
+
+MultipleChoiceEntry.propTypes = {
+  title: PropTypes.string,
+  text: PropTypes.string,
+  questions: PropTypes.array,
+};
+
+MultipleChoiceEntryContent.propTypes = {
+  title: PropTypes.string,
+  text: PropTypes.string,
+  questions: PropTypes.array,
+};
 
 export default MultipleChoiceEntry;

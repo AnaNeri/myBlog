@@ -2,6 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import PropTypes from 'prop-types';
+
 
 function TextEntryContent({title="Tmp title", text="Hi"}) {
   return (
@@ -41,5 +43,15 @@ function TextEntry({title="Tmp title", text="Hi"}) {
     </div>
   );
 }
+
+TextEntryContent.propTypes = {
+  title: PropTypes.string,
+  text: PropTypes.string,
+};
+
+TextEntry.propTypes = {
+  title: PropTypes.string,
+  text: PropTypes.string,
+};
 
 export default TextEntry;

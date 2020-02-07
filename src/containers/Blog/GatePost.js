@@ -6,6 +6,7 @@ import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import PropTypes from 'prop-types';
 
 
 function GatePostContent({title="Tmp title", text="Hi"}) {
@@ -80,4 +81,14 @@ function GatePost({title="Tmp title", text="Hi"}) {
   );
 }
 
+
+GatePostContent.propTypes = {
+  title: PropTypes.string,
+  text: PropTypes.string,
+};
+
+GatePost.propTypes = {
+  title: PropTypes.string,
+  text: PropTypes.string,
+};
 export default GatePost;
