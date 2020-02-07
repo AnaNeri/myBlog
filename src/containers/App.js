@@ -8,8 +8,10 @@ import Cv from './Cv';
 import HomePage from './HomePage';
 import TextEntry from './Blog/TextEntry';
 import GatePost from './Blog/GatePost';
+import MultipleChoiceEntry from './Blog/MultipleChoiceEntry';
 import qubit from '../posts/qubit.json';
 import qgate from '../posts/qgate.json';
+import qcomputer from '../posts/qcomputer.json'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'; // must import this AND npm install
 import {
   BrowserRouter as Router,
@@ -36,6 +38,9 @@ function App() {
               </Route>
               <Route path="/blog/quantumGate">
               	<GatePost title={qgate.title} text={qgate.body} />
+              </Route>
+              <Route path="/blog/quantumComputer">
+              	<MultipleChoiceEntry title={qcomputer.title} text={qcomputer.text} questions={qcomputer.questions} />
               </Route>
               <Route path="/about">
                 <AboutMe />

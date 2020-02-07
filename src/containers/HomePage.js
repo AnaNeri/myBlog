@@ -22,6 +22,7 @@ function HomePageContent() {
         <ul>
             <li><Link to ="/blog/qubit"> What's a qubit?  </Link></li>
             <li><Link to ="/blog/quantumGate"> What's a quantum gate? </Link></li>
+            <li><Link to ="/blog/quantumcomputer"> What's a quantum computer? </Link></li>
         </ul>
         </Col>
         </Row>
