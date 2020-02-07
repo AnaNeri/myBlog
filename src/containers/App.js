@@ -40,7 +40,7 @@ function App() {
               	<GatePost title={qgate.title} text={qgate.body} />
               </Route>
               <Route path="/blog/quantumComputer">
-              	<MultipleChoiceEntry title={qcomputer.title} text={qcomputer.text} questions={qcomputer.questions} />
+              	<MultipleChoiceEntry title={qcomputer.title} text={qcomputer.body} questions={qcomputer.questions} />
               </Route>
               <Route path="/about">
                 <AboutMe />
@@ -57,9 +57,9 @@ function App() {
             </Switch>
         </Router>
         
-        <div style={{ width: "100%"}}>
+        <footer>
         <Footer />
-        </div>
+        </footer>
     </div>
   );
 }

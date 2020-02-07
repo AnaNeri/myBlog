@@ -1,8 +1,8 @@
 {
     "title": "What's a quantum computer?",
-    "body": "You are about to find out! :D",
+    "body": "You can find out soon! :D",
     "questions":[
-    	{"question":"Ola?", "answer":"ola"},
-    	{"question":"ole?", "answer":"ole"}
+    	{"question":"Yes", "answer":"Sorry. It doesn't work like that."},
+    	{"question":"No", "answer":"Correct!"}
     ]
 }

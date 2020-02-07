@@ -23,10 +23,12 @@ function MultipleChoiceEntryContent({title="Tmp title", text="Hi", questions=[]}
 			      </h2>
 			      <br/>
 			          {text}
+                <br/>
+                Does the quantum computer allows to test every case at the same time?
             <Form>
              <Form.Group as={Row} role="form" value={value} >
               <Form.Label as="legend" column sm={2} >
-                Questions
+                
               </Form.Label>
               <Col sm={10}>
                 {questions.map(e => (

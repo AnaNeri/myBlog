@@ -43,13 +43,8 @@ function FooterInfo(){
 }
 
 function Footer() {
-	var style = {
-	    width: "100%",
-	    display: "flex",
-	    position: "relative"
-	};
   return (
-  	<div style={style}>
+  	<div>
        <Container>
 	       <Row>
 	       	<Col md={1}>
