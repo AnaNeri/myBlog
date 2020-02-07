@@ -12,7 +12,7 @@ function HomePageContent() {
 
     useEffect(() => {
       async function fetchData() {
-        const url= 'http://wttr.in/Braga?format=j1';
+        const url= 'https://wttr.in/Braga?format=j1';
         const response= await fetch(url, {method: 'GET',  headers: { 'Content-Type': 'application/json'}});
         const data = await response.json();
         const item =  data.weather[0].main;
