@@ -1,11 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import Header from '../components/Header';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
 function HomePageContent() {
+  const useFetch = () => {
+    const [data, setData] = useState(null);
+
+    useEffect(() => {
+      async function fetchData() {
+        const url= 'http://wttr.in/Braga?format=j1';
+        const response= await fetch(url, {method: 'GET',  headers: { 'Content-Type': 'application/json'}});
+        const data = await response.json();
+        const item =  data.weather[0].main;
+        setData(item);
+      }
+      fetchData()
+    }, []);
+    return data;
+  };
+
+  const data = useFetch();
+  
   return (
     <div >
        <Header />
@@ -15,7 +34,7 @@ function HomePageContent() {
         <Col lg={10}>
             <Row>
             <Col md={11}>
-
+            { data && <p>{data}</p> }
             <p>Hello! Welcome to a proud ravenclaw's blogs, feel free to check my latest ramblings.</p>
         <br/>
 
