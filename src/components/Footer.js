@@ -1,11 +1,14 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import {SocialIcon} from 'react-social-icons'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import {SocialIcon} from 'react-social-icons';
+
+
 
 function FooterInfo(){
   return (
+
   	<div>
        <Container>
 	       <Row>
@@ -40,8 +43,13 @@ function FooterInfo(){
 }
 
 function Footer() {
+	var style = {
+	    width: "100%",
+	    display: "flex",
+	    position: "relative"
+	};
   return (
-  	<>
+  	<div style={style}>
        <Container>
 	       <Row>
 	       	<Col md={1}>
@@ -51,7 +59,7 @@ function Footer() {
 		    </Col>
 	       </Row>
        </Container> 
-    </>
+    </div>
   );
 }
 
