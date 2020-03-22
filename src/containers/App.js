@@ -9,7 +9,7 @@ import HomePage from './HomePage';
 import TextEntry from './Blog/TextEntry';
 import GatePost from './Blog/GatePost';
 import MultipleChoiceEntry from './Blog/MultipleChoiceEntry';
-import qubit from '../posts/qubit.json';
+import qubit from '../posts/qubitHistory.json';
 import qgate from '../posts/qgate.json';
 import qcomputer from '../posts/qcomputer.json'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'; // must import this AND npm install
@@ -33,7 +33,7 @@ function App() {
 
         <Router>
             <Switch>
-              <Route path="/blog/qubit">
+              <Route path="/blog/qubitHistory">
                 <TextEntry title={qubit.title} text={qubit.body} />
               </Route>
               <Route path="/blog/quantumGate">

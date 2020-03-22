@@ -5,7 +5,10 @@ import Col from 'react-bootstrap/Col';
 import PropTypes from 'prop-types';
 
 
-function TextEntryContent({title="Tmp title", text="Hi"}) {
+
+function TextEntryContent({title="Tmp title", text=["Hi"]}) {
+  const listtext = text.map((text) => <p>{text}</p>) 
+
   return (
     <div>
         <Container>
@@ -18,7 +21,7 @@ function TextEntryContent({title="Tmp title", text="Hi"}) {
 			        {title}
 			      </h2>
 			      <br/>
-			          {text}
+			         {listtext}
 			</Col>
 			</Row>
 		</Col>
@@ -28,7 +31,7 @@ function TextEntryContent({title="Tmp title", text="Hi"}) {
   );
 }
 
-function TextEntry({title="Tmp title", text="Hi"}) {
+function TextEntry({title="Tmp title", text=["Hi"]}) {
 	return (
     <div>
        <Container>
