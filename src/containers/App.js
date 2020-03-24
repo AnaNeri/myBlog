@@ -9,7 +9,7 @@ import HomePage from './HomePage';
 import TextEntry from './Blog/TextEntry';
 import GatePost from './Blog/GatePost';
 import MultipleChoiceEntry from './Blog/MultipleChoiceEntry';
-import qubit from '../posts/qubitHistory.json';
+import qubitH from '../posts/qubitHistory.json';
 import qgate from '../posts/qgate.json';
 import qcomputer from '../posts/qcomputer.json'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'; // must import this AND npm install
@@ -19,7 +19,6 @@ import {
   Route,
   //Link
 } from "react-router-dom";
-
 
 function App() {
   return (
@@ -34,7 +33,7 @@ function App() {
         <Router>
             <Switch>
               <Route path="/blog/qubitHistory">
-                <TextEntry title={qubit.title} text={qubit.body} />
+                <TextEntry title={qubitH.title} text={qubitH.body} refs={qubitH.refs}/>
               </Route>
               <Route path="/blog/quantumGate">
               	<GatePost title={qgate.title} text={qgate.body} />
