@@ -27,3 +27,13 @@ footer {
   bottom: 0;
   height: 10rem;
 }
+
+a:link, a:visited{
+  color: lightskyblue ;
+  text-decoration: none;
+}
+
+a:hover, a:active{
+  color: lightskyblue !important;
+  text-decoration: underline !important;
+}
