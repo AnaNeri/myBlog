@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 function TextEntryContent({title="Tmp title", text=["Hi"], refs=[""]}) {
   const listtext = text.map((text) => <p>{text}</p>); 
-  const listrefs = refs.map((refs) => <p>{refs}</p>);
+  const listrefs = refs.map((refs) => <p class="ref">{refs}</p>);
 
   return (
   <div>
@@ -32,7 +32,7 @@ function TextEntryContent({title="Tmp title", text=["Hi"], refs=[""]}) {
 		</Container>
     </div>
     
-    <div style={{fontSize:10}}>
+    <div style={{fontSize:14}}>
     <Container>
     <Row>
     <Col lg={10}>
