@@ -22,6 +22,10 @@ p.ref {
   font-style: italic;
 }
 
+li {
+  font-size: 120%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -48,9 +52,20 @@ a:hover, a:active {
 }
 
 table {
+  font-size: 120%;
   color: white !important;
 }
 
 tr:hover {
   color: lightskyblue !important;
+}
+
+a.nav-link:hover {
+  color: lightskyblue !important;
+  text-decoration: none !important;
+}
+
+a.navbar-brand:hover {
+  color: lightskyblue !important;
+  text-decoration: none !important;
 }
