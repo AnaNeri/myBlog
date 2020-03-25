@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import Nav1 from '../components/Nav';
 import Footer from '../components/Footer'
 import AboutMe from './AboutMe';
@@ -23,10 +22,9 @@ import {
 function App() {
   return (
     <div>
-      <Helmet>
+
         <title>Neri</title>
-        <meta name="description" content="Neri" />
-      </Helmet>
+
         <Nav1 />
 
 
