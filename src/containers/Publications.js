@@ -2,6 +2,10 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Pdf2018001 from '../docs/2018/Workshop_CompQuantica.pdf';
+import Pdf2018002 from '../docs/2018/Tese_ANeri_.pdf';
+import Pdf2018003 from '../docs/2018/QuantaLab-TowardsQuantumProgramCalculation.pdf';
+import Pdf2018004 from '../docs/2018/IBM_Q_Experience___class.pdf';
 
 function PublicationsContent() {
 	return(
@@ -17,7 +21,7 @@ function PublicationsContent() {
 	       <br/>
 
 	       <h3>Master Disseration</h3>
-	       <p>"Towards Quantum Program Calculation", supervised by <a href="http://www4.di.uminho.pt/~jno/" target="_blank" rel="noopener noreferrer">J. N. Oliveira (Univ. Minho)</a> and <a href="https://www.cs.ox.ac.uk/people/rui.soaresbarbosa/" target="_blank" rel="noopener noreferrer"> R. S. Barbosa (Univ. Oxford) </a>, (October 2018) University of Minho. </p> 
+	       <p>"<a href={Pdf2018002} target="_blank" rel="noopener noreferrer">Towards Quantum Program Calculation"</a>, supervised by <a href="http://www4.di.uminho.pt/~jno/" target="_blank" rel="noopener noreferrer">J. N. Oliveira (Univ. Minho)</a> and <a href="https://www.cs.ox.ac.uk/people/rui.soaresbarbosa/" target="_blank" rel="noopener noreferrer"> R. S. Barbosa (Univ. Oxford) </a>, (October 2018) University of Minho. </p> 
 
 	       <h3>Projects</h3>
 	       <p><b> 2019 </b></p>
@@ -38,9 +42,9 @@ function PublicationsContent() {
 	       <br/>
 	       <p><b> 2018 </b></p>
 	       <ul>
-	       	<li>"IBM Q Experience class notes", with Afonso Rodrigues (U. Minho), U. Aveiro; </li>
-	       	<li>"Towards Quantum Program Calculation", with J. N. Oliveira (U. Minho), IBM-QuantaLab School, INL; </li>
-	       	<li> "Computação Quântica", Verão no Campus'18, U. Minho; </li>
+	       	<li><a href={Pdf2018004} target="_blank" rel="noopener noreferrer">"IBM Q Experience class notes"</a>, with Afonso Rodrigues (U. Minho), U. Aveiro; </li>
+	       	<li><a href={Pdf2018003} target="_blank" rel="noopener noreferrer">"Towards Quantum Program Calculation"</a>, with J. N. Oliveira (U. Minho), IBM-QuantaLab School, INL; </li>
+	       	<li><a href={Pdf2018001} target="_blank" rel="noopener noreferrer">"Computação Quântica"</a>, Verão no Campus'18, U. Minho; </li>
 	       </ul>
 			</Col>
 			</Row>
