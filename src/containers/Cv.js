@@ -87,7 +87,7 @@ function CvContent() {
        	<h3>Languages</h3>
        	<p><b>Native Language:</b> Portuguese</p>
 
-       	<Table striped bordered hover size="sm">
+       	<Table striped bordered responsive hover size="sm">
        	<thead>
        		<tr>
 	       		<th rowspan="2">Other Languages</th>

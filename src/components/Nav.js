@@ -2,11 +2,12 @@ import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 
 // Toggle always showing becasue Navbar expand default is xxl
+// collapseOnSelect expand="xxl" bg="light" variant="light" sticky="top"
 
 function Nav1() {
   return (
     <>
-    <Navbar collapseOnSelect expand="xxl" bg="dark" variant="dark" sticky="top">
+    <Navbar collapseOnSelect expand="xxl" variant="dark" sticky="top">
       <Navbar.Brand href="/">Home</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

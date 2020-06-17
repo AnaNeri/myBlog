@@ -6,6 +6,9 @@ import Pdf2018001 from '../docs/2018/Workshop_CompQuantica.pdf';
 import Pdf2018002 from '../docs/2018/Tese_ANeri_.pdf';
 import Pdf2018003 from '../docs/2018/QuantaLab-TowardsQuantumProgramCalculation.pdf';
 import Pdf2018004 from '../docs/2018/IBM_Q_Experience___class.pdf';
+import Pdf2019001 from '../docs/2019/VnC-2019.pdf';
+import Pdf2019002 from '../docs/2019/VC19.pdf';
+import Pdf2019003 from '../docs/2019/Sessão.pdf';
 
 function PublicationsContent() {
 	return(
@@ -32,10 +35,10 @@ function PublicationsContent() {
 	       <h3>Talks</h3>
 	       <p><b> 2019 </b></p>
 	       <ul>
-	       	<li>"Sessão hands-on de experimentação no IBM Q. Desenvolvimento de programas quânticos em Qiskit", Módulos HPC e Computação Quântica de Computação Avançada, U.Minho (<a href = "https://github.com/AnaNeri/class_20191115" target="_blank" rel="noopener noreferrer">Notebook e Slides)</a>; </li>
+	       	<li>"Sessão hands-on de experimentação no IBM Q. Desenvolvimento de programas quânticos em Qiskit", Módulos HPC e Computação Quântica de Computação Avançada, U.Minho (<a href = "https://github.com/AnaNeri/class_20191115" target="_blank" rel="noopener noreferrer">Notebook</a> e <a href={Pdf2019003} target="_blank" rel="noopener noreferrer">Slides</a>); </li>
 	       	<li><a href="https://github.com/afonsofr/mission10000" target="_blank" rel="noopener noreferrer">"Hands-on Quantum Computing with Qiskit"</a>, with Afonso Rodrigues (U. Minho/CEiiA) and Bruno Murta (INL), <a href="https://nanogateway.eu/pt-pt/mission-quantum/#1565953369664-774bc44b-5189" target="_blank" rel="noopener noreferrer">mission 10 000 conference - Quantum Science and Technologies, INL </a>; </li>
 	       	<li>Demo: “Quantum Computing with QISKIT”, with Afonso Rodrigues, <a href ="https://utaustinportugal.org/events/masterclass1/" target="_blank" rel="noopener noreferrer">Masterclass I: Quantum Computing – Principles, algorithms and applications, UT Austin Portugal </a>; </li>
-	       	<li>"Computação Quântica", Verão no Campus'19, U.Minho (Apresentação e Guia); </li>
+	       	<li>"Computação Quântica", Verão no Campus'19, U.Minho (<a href={Pdf2019001} target="_blank" rel="noopener noreferrer">Apresentação</a> e <a href={Pdf2019002} target="_blank" rel="noopener noreferrer">Guia</a>); </li>
 	       	<li><a href="https://github.com/afonsofr/qdays19" target="_blank" rel="noopener noreferrer">"Hands-on session: IBM Q Experience"</a>, with <a href="https://afonsofr.github.io/" target="_blank" rel="noopener noreferrer">Afonso Rodrigues (U. Minho) </a>, <a href="http://w3.math.uminho.pt/qdays2019/" target="_blank" rel="noopener noreferrer">Q Days 19 </a>, U. Minho; </li>
 	       </ul>
 
