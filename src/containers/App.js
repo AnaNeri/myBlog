@@ -19,7 +19,9 @@ import {
   //Link
 } from "react-router-dom";
 
+
 function App() {
+
   return (
     <div>
 
@@ -54,6 +56,17 @@ function App() {
             </Switch>
         </Router>
         
+        <div className=".d-block .d-sm-none">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        </div>
+
         <footer>
         <Footer />
         </footer>

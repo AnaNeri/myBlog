@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import {SocialIcon} from 'react-social-icons';
 
 
-
 function FooterInfo(){
   return (
 
