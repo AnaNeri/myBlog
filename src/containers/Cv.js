@@ -42,6 +42,11 @@ function CvContent() {
        	</ul>
 
        	<h3>Accomplishments</h3>
+            <p><b>Research Grant</b></p>
+            <ul>
+                  <li>University of Minho</li>
+                  <li>Jun 2020 -Jan 2021</li>
+            </ul>
        	<p><b>Research Grant - Master</b></p>
        	<ul>
        		<li>University of Minho</li>
