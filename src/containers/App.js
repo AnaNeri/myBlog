@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import AboutMe from './AboutMe';
 import Publications from './Publications';
 import Cv from './Cv';
+import Teaching from './Teaching';
 import HomePage from './HomePage';
 import TextEntry from './Blog/TextEntry';
 import GatePost from './Blog/GatePost';
@@ -49,6 +50,9 @@ function App() {
               </Route>
              <Route path="/cv">
                 <Cv />
+              </Route>
+              <Route path="/teaching">
+                <Teaching />
               </Route>
               <Route path="/">
                 <HomePage />

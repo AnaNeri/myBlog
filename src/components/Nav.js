@@ -15,6 +15,7 @@ function Nav1() {
           <Nav.Link href="/about">About me</Nav.Link>
           <Nav.Link href="/publications">Publications</Nav.Link>
           <Nav.Link href="/cv">CV</Nav.Link>
+          <Nav.Link href="/teaching">Teaching</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
