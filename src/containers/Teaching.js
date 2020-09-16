@@ -18,7 +18,7 @@ function TeachingContent() {
        <p><b> 2019-2020 </b></p>
        	<br/>
         <ul>
-	       <li> <a href="http://arca.di.uminho.pt/ic-1920/" target="_blank" rel="noopener noreferrer"> Interaction and Concurrence 2019-2020 </a>: TP Quantum Systems</li>  
+	       <li> <a href="http://arca.di.uminho.pt/ic-1920/" target="_blank" rel="noopener noreferrer"> Interaction and Concurrence 2019-2020 </a>: Theoretical-Practical lectures of Quantum Systems module</li>  
     	  </ul>
       </Col>
     	</Row>
