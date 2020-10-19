@@ -22,7 +22,7 @@ function PublicationsContent() {
 
 	       <br/>
 
-	       <h3>Master Disseration</h3>
+	       <h3>Master Dissertation</h3>
 	       <p>"<a href="http://hdl.handle.net/1822/67480" target="_blank" rel="noopener noreferrer">Towards Quantum Program Calculation"</a>, supervised by <a href="http://www4.di.uminho.pt/~jno/" target="_blank" rel="noopener noreferrer">J. N. Oliveira (Univ. Minho)</a> and <a href="https://www.cs.ox.ac.uk/people/rui.soaresbarbosa/" target="_blank" rel="noopener noreferrer"> R. S. Barbosa (Univ. Oxford) </a>, (October 2018) University of Minho. </p> 
 
 	       <h3>Projects</h3>
