@@ -22,9 +22,11 @@ function HomePageContent() {
         <br/>
 
         <ul>
-            <li><Link to ="/blog/qubitHistory"> What's a qubit? For people who like history  </Link></li>
+            <li><Link to ="/blog/qubitHistory"> What's a qubit? For people who like history </Link></li>
+            {/* 
             <li><Link to ="/blog/quantumGate"> What's a quantum gate? </Link></li>
             <li><Link to ="/blog/quantumcomputer"> What's a quantum computer? </Link></li>
+            */}
         </ul>
         </Col>
         </Row>
@@ -38,6 +40,7 @@ function HomePageContent() {
 function HomePage() {
   return (
     <div>
+    <br/>
        <Container>
        <Row>
        <Col md={2}>

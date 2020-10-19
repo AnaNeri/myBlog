@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Pdf2018001 from '../docs/2018/Workshop_CompQuantica.pdf';
-import Pdf2018002 from '../docs/2018/Tese_ANeri_.pdf';
 import Pdf2018003 from '../docs/2018/QuantaLab-TowardsQuantumProgramCalculation.pdf';
 import Pdf2018004 from '../docs/2018/IBM_Q_Experience___class.pdf';
 import Pdf2019001 from '../docs/2019/VnC-2019.pdf';
@@ -24,7 +23,7 @@ function PublicationsContent() {
 	       <br/>
 
 	       <h3>Master Disseration</h3>
-	       <p>"<a href={Pdf2018002} target="_blank" rel="noopener noreferrer">Towards Quantum Program Calculation"</a>, supervised by <a href="http://www4.di.uminho.pt/~jno/" target="_blank" rel="noopener noreferrer">J. N. Oliveira (Univ. Minho)</a> and <a href="https://www.cs.ox.ac.uk/people/rui.soaresbarbosa/" target="_blank" rel="noopener noreferrer"> R. S. Barbosa (Univ. Oxford) </a>, (October 2018) University of Minho. </p> 
+	       <p>"<a href="http://hdl.handle.net/1822/67480" target="_blank" rel="noopener noreferrer">Towards Quantum Program Calculation"</a>, supervised by <a href="http://www4.di.uminho.pt/~jno/" target="_blank" rel="noopener noreferrer">J. N. Oliveira (Univ. Minho)</a> and <a href="https://www.cs.ox.ac.uk/people/rui.soaresbarbosa/" target="_blank" rel="noopener noreferrer"> R. S. Barbosa (Univ. Oxford) </a>, (October 2018) University of Minho. </p> 
 
 	       <h3>Projects</h3>
 	       <p><b> 2019 </b></p>
