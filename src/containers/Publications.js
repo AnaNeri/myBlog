@@ -25,6 +25,9 @@ function PublicationsContent() {
 	       <h3>Master Dissertation</h3>
 	       <p>"<a href="http://hdl.handle.net/1822/67480" target="_blank" rel="noopener noreferrer">Towards Quantum Program Calculation"</a>, supervised by <a href="http://www4.di.uminho.pt/~jno/" target="_blank" rel="noopener noreferrer">J. N. Oliveira (Univ. Minho)</a> and <a href="https://www.cs.ox.ac.uk/people/rui.soaresbarbosa/" target="_blank" rel="noopener noreferrer"> R. S. Barbosa (Univ. Oxford) </a>, (October 2018) University of Minho. </p> 
 
+	       <h3>Preprint</h3>
+	       <p>"<a href="https://arxiv.org/abs/2010.10510" target="_blank" rel="noopener noreferrer">Compiling quantamorphisms for the IBM Q Experience</a>", with R. S. Barbosa (INL) and J. N. Oliveira (Univ. Minho), (October 2020) </p>
+
 	       <h3>Projects</h3>
 	       <p><b> 2019 </b></p>
 	       <ul>
