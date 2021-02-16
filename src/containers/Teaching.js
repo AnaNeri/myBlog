@@ -15,6 +15,13 @@ function TeachingContent() {
 			<Col md={11}>
        <h2>Teaching</h2>
        <br/>
+       <p> <b> 2020-2021 </b></p>
+         <br/>
+         <ul>
+          <li> <a href="" target="_blank" rel="noopener noreferrer"> Quantum Computing 2020-2021 </a>: Theoretical-Practical lectures</li>
+          <li> <a href="" target="_blank" rel="noopener noreferrer">Interaction and Concurrence 2020-2021 </a>: Theoretical-Practical lectures of Quantum Systems module</li>
+         </ul>
+       <br/>
        <p><b> 2019-2020 </b></p>
        	<br/>
         <ul>
