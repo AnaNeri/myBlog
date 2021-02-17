@@ -18,8 +18,8 @@ function TeachingContent() {
        <p> <b> 2020-2021 </b></p>
          <br/>
          <ul>
-          <li> <a href="" target="_blank" rel="noopener noreferrer"> Quantum Computing 2020-2021 </a>: Theoretical-Practical lectures</li>
-          <li> <a href="" target="_blank" rel="noopener noreferrer">Interaction and Concurrence 2020-2021 </a>: Theoretical-Practical lectures of Quantum Systems module</li>
+          <li> <a href="http://arca.di.uminho.pt/quantum-computation-2021/" target="_blank" rel="noopener noreferrer"> Quantum Computing 2020-2021 </a>: Theoretical-Practical lectures</li>
+          <li> <a href="http://arca.di.uminho.pt/ic-2021/" target="_blank" rel="noopener noreferrer">Interaction and Concurrence 2020-2021 </a>: Theoretical-Practical lectures of Quantum Systems module</li>
          </ul>
        <br/>
        <p><b> 2019-2020 </b></p>
