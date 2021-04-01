@@ -4101,19 +4101,6 @@ electron-to-chromium@^1.3.564:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.704.tgz#894205a237cbe0097d63da8f6d19e605dd13ab51"
   integrity sha512-6cz0jvawlUe4h5AbfQWxPzb+8LzVyswGAWiGc32EJEmfj39HTQyNPkLXirc7+L4x5I6RgRkzua8Ryu5QZqc8cA==
 
-elliptic@6.5.4:
-  version "6.5.4"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
-  integrity sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==
-  dependencies:
-    bn.js "^4.11.9"
-    brorand "^1.1.0"
-    hash.js "^1.0.0"
-    hmac-drbg "^1.0.1"
-    inherits "^2.0.4"
-    minimalistic-assert "^1.0.1"
-    minimalistic-crypto-utils "^1.0.1"
-
 elliptic@^6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
@@ -4126,6 +4113,19 @@ elliptic@^6.5.3:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
+
+elliptic@^6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
+  integrity sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==
+  dependencies:
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
+    hash.js "^1.0.0"
+    hmac-drbg "^1.0.1"
+    inherits "^2.0.4"
+    minimalistic-assert "^1.0.1"
+    minimalistic-crypto-utils "^1.0.1"
 
 emoji-regex@^7.0.1, emoji-regex@^7.0.2:
   version "7.0.3"
@@ -4724,6 +4724,11 @@ fast-levenshtein@~2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
+fast-xml-parser@^3.19.0:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-3.19.0.tgz#cb637ec3f3999f51406dd8ff0e6fc4d83e520d01"
+  integrity sha512-4pXwmBplsCPv8FOY1WRakF970TjNGnGnfbOnLqjlYvMiF1SR3yOHyxMR/YCXpPTOspNF5gwudqktIP4VsWkvBg==
 
 fastq@^1.6.0:
   version "1.11.0"
@@ -5399,7 +5404,7 @@ hsla-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/hsla-regex/-/hsla-regex-1.0.0.tgz#c1ce7a3168c8c6614033a4b5f7877f3b225f9c38"
   integrity sha1-wc56MWjIxmFAM6S194d/OyJfnDg=
 
-html-comment-regex@^1.1.0, html-comment-regex@^1.1.2:
+html-comment-regex@^1.1.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/html-comment-regex/-/html-comment-regex-1.1.2.tgz#97d4688aeb5c81886a364faa0cad1dda14d433a7"
   integrity sha512-P+M65QY2JQ5Y0G9KKdlDpo0zK+/OHptU5AaBwUfAIDJZk1MYf32Frm84EcOytfJE0t5JvkAnKlmjsXDnWzCJmQ==
@@ -6029,19 +6034,19 @@ is-string@^1.0.5:
   resolved "https://registry.yarnpkg.com/is-string/-/is-string-1.0.5.tgz#40493ed198ef3ff477b8c7f92f644ec82a5cd3a6"
   integrity sha512-buY6VNRjhQMiF1qWDouloZlQbRhDPCebwxSjxMjxgemYT46YMd2NR0/H+fBhEfWX4A/w9TBJ+ol+okqJKFE6vQ==
 
-is-svg@4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-4.2.2.tgz#a4ea0f3f78dada7085db88f1e85b6f845626cfae"
-  integrity sha512-JlA7Mc7mfWjdxxTkJ094oUK9amGD7gQaj5xA/NCY0vlVvZ1stmj4VX+bRuwOMN93IHRZ2ctpPH/0FO6DqvQ5Rw==
-  dependencies:
-    html-comment-regex "^1.1.2"
-
 is-svg@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-3.0.0.tgz#9321dbd29c212e5ca99c4fa9794c714bcafa2f75"
   integrity sha512-gi4iHK53LR2ujhLVVj+37Ykh9GLqYHX6JOVXbLAucaG/Cqw9xwdFOjDM2qeifLs1sF1npXXFvDu0r5HNgCMrzQ==
   dependencies:
     html-comment-regex "^1.1.0"
+
+is-svg@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-4.3.1.tgz#8c63ec8c67c8c7f0a8de0a71c8c7d58eccf4406b"
+  integrity sha512-h2CGs+yPUyvkgTJQS9cJzo9lYK06WgRiXUqBBHtglSzVKAuH4/oWsqk7LGfbSa1hGk9QcZ0SyQtVggvBA8LZXA==
+  dependencies:
+    fast-xml-parser "^3.19.0"
 
 is-symbol@^1.0.2:
   version "1.0.3"
@@ -9032,36 +9037,6 @@ react-bootstrap@^1.0.0-beta.16:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
-react-dev-utils@11.0.4:
-  version "11.0.4"
-  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
-  integrity sha512-dx0LvIGHcOPtKbeiSUM4jqpBl3TcY7CDjZdfOIcKeznE7BWr9dg0iPG90G5yfVQ+p/rGNMXdbfStvzQZEVEi4A==
-  dependencies:
-    "@babel/code-frame" "7.10.4"
-    address "1.1.2"
-    browserslist "4.14.2"
-    chalk "2.4.2"
-    cross-spawn "7.0.3"
-    detect-port-alt "1.1.6"
-    escape-string-regexp "2.0.0"
-    filesize "6.1.0"
-    find-up "4.1.0"
-    fork-ts-checker-webpack-plugin "4.1.6"
-    global-modules "2.0.0"
-    globby "11.0.1"
-    gzip-size "5.1.1"
-    immer "8.0.1"
-    is-root "2.1.0"
-    loader-utils "2.0.0"
-    open "^7.0.2"
-    pkg-up "3.1.0"
-    prompts "2.4.0"
-    react-error-overlay "^6.0.9"
-    recursive-readdir "2.2.2"
-    shell-quote "1.7.2"
-    strip-ansi "6.0.0"
-    text-table "0.2.0"
-
 react-dev-utils@^10.2.1:
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.1.tgz#f6de325ae25fa4d546d09df4bb1befdc6dd19c19"
@@ -9087,6 +9062,36 @@ react-dev-utils@^10.2.1:
     open "^7.0.2"
     pkg-up "3.1.0"
     react-error-overlay "^6.0.7"
+    recursive-readdir "2.2.2"
+    shell-quote "1.7.2"
+    strip-ansi "6.0.0"
+    text-table "0.2.0"
+
+react-dev-utils@^11.0.4:
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
+  integrity sha512-dx0LvIGHcOPtKbeiSUM4jqpBl3TcY7CDjZdfOIcKeznE7BWr9dg0iPG90G5yfVQ+p/rGNMXdbfStvzQZEVEi4A==
+  dependencies:
+    "@babel/code-frame" "7.10.4"
+    address "1.1.2"
+    browserslist "4.14.2"
+    chalk "2.4.2"
+    cross-spawn "7.0.3"
+    detect-port-alt "1.1.6"
+    escape-string-regexp "2.0.0"
+    filesize "6.1.0"
+    find-up "4.1.0"
+    fork-ts-checker-webpack-plugin "4.1.6"
+    global-modules "2.0.0"
+    globby "11.0.1"
+    gzip-size "5.1.1"
+    immer "8.0.1"
+    is-root "2.1.0"
+    loader-utils "2.0.0"
+    open "^7.0.2"
+    pkg-up "3.1.0"
+    prompts "2.4.0"
+    react-error-overlay "^6.0.9"
     recursive-readdir "2.2.2"
     shell-quote "1.7.2"
     strip-ansi "6.0.0"
@@ -10199,13 +10204,6 @@ sshpk@^1.7.0:
     safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
-ssri@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-8.0.1.tgz#638e4e439e2ffbd2cd289776d5ca457c4f51a2af"
-  integrity sha512-97qShzy1AiyxvPNIkLWoGua7xoQzzPjQ0HAH4B0rWKo7SZ6USuPcrUiAFrws0UH8RrbWmgq3LMTObhPIHbbBeQ==
-  dependencies:
-    minipass "^3.1.1"
-
 ssri@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
@@ -10219,6 +10217,13 @@ ssri@^7.0.0:
   integrity sha512-77/WrDZUWocK0mvA5NTRQyveUf+wsrIc6vyrxpS8tVvYBcX215QbafrJR3KtkpskIzoFLqqNuuYQvxaMjXJ/0g==
   dependencies:
     figgy-pudding "^3.5.1"
+    minipass "^3.1.1"
+
+ssri@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-8.0.1.tgz#638e4e439e2ffbd2cd289776d5ca457c4f51a2af"
+  integrity sha512-97qShzy1AiyxvPNIkLWoGua7xoQzzPjQ0HAH4B0rWKo7SZ6USuPcrUiAFrws0UH8RrbWmgq3LMTObhPIHbbBeQ==
+  dependencies:
     minipass "^3.1.1"
 
 stable@^0.1.8:
