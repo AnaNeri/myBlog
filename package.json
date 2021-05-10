@@ -8,10 +8,12 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "elliptic": "^6.5.4",
+    "hosted-git-info": "2.8.9",
     "hotswap": "^1.1.0",
     "immer": "^8.0.1",
     "ini": "^2.0.0",
     "is-svg": "^4.3.1",
+    "lodash": "4.17.21",
     "node-forge": "^0.10.0",
     "node-notifier": "^9.0.0",
     "object-path": "0.11.5",
@@ -24,6 +26,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.3",
     "ssri": "^8.0.1",
+    "url-parse": "1.5.0",
     "y18n": "^5.0.5"
   },
   "scripts": {
