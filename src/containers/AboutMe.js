@@ -17,22 +17,22 @@ function AboutMeContent() {
        	<br/>
 	       <p> 
 			   I am a PhD student at the 
-			   <a href="https://mapi.map.edu.pt/" target="_blank" rel="noopener noreferrer">MAPi</a>
+			   <a href="https://mapi.map.edu.pt/" target="_blank" rel="noopener noreferrer"> MAPi </a>
 			   doctoral program with a project on Quantum Computing. 
 			   I've got selected for a 
-			   <a href="https://quantumportugalinitiative.inl.int/" target="_blank" rel="noopener noreferrer">Quantum Portugal Initiative FCT-INL scholarship</a>. 
+			   <a href="https://quantumportugalinitiative.inl.int/" target="_blank" rel="noopener noreferrer"> Quantum Portugal Initiative FCT-INL scholarship</a>. 
 			   I'm affiliated with 
-			   <a href="https://inl.int/" target="_blank" rel="noopener noreferrer">INL</a>, 
-			   <a href="https://haslab.uminho.pt/" target="_blank" rel="noopener noreferrer">HASLab </a>
+			   <a href="https://inl.int/" target="_blank" rel="noopener noreferrer"> INL</a>, 
+			   <a href="https://haslab.uminho.pt/" target="_blank" rel="noopener noreferrer"> HASLab </a>
 			   <a href= "https://inesctec.pt/en" target="_blank" rel="noopener noreferrer"> INESC TEC</a>, and 
 			   <a href="https://cidma.ua.pt/" target="_blank" rel="noopener noreferrer"> CIDMA</a>. 
 			</p>
 
 			<p>
 				I teach at the University of Minho, and I'm a member of the 
-				<a href="https://arca.di.uminho.pt/" target="_blank" rel="noopener noreferrer">ARCA team</a> 
+				<a href="https://arca.di.uminho.pt/" target="_blank" rel="noopener noreferrer"> ARCA </a> 
 				and 
-				<a href="http://www.quantalab.org" target="_blank" rel="noopener noreferrer">QuantaLab</a>
+				<a href="http://www.quantalab.org" target="_blank" rel="noopener noreferrer"> QuantaLab </a>
 			</p>
 
 	        <p>
