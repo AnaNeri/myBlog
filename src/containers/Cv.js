@@ -42,11 +42,16 @@ function CvContent() {
        	</ul>
 
        	<h3>Accomplishments</h3>
-            <p><b>Research Grant</b></p>
-            <ul>
-                  <li>University of Minho</li>
-                  <li>Jun 2020 -Jan 2021</li>
-            </ul>
+		<p><b>Quantum Portugal Initiative Grant</b></p>
+		<ul>
+			<li>FCT - INL</li>
+			<li>Fev 2021 - Present</li>
+		</ul>
+        <p><b>Research Grant</b></p>
+        <ul>
+            <li>University of Minho</li>
+            <li>Jun 2020 -Jan 2021</li>
+        </ul>
        	<p><b>Research Grant - Master</b></p>
        	<ul>
        		<li>University of Minho</li>
@@ -69,17 +74,17 @@ function CvContent() {
        		<ul>
        			<li>Quipper</li>
        			<li>Qiskit</li>
-       			<li>IBM-Q Composer</li>
+     			{/*<li>IBM-Q Composer</li>*/}  
        		</ul>
        		</li>
        		<li>Proficient with Programming Languages:
        		<ul>
        			<li>Haskell</li>
        			<li>Python</li>
-       			<li>Matlab</li>
+       			{/*<li>Matlab</li>*/}
        		</ul>
        		</li>
-       		<li>
+      		{/*<li>
        		Skilled with:
        		<ul>
        			<li>Latex</li>
@@ -87,7 +92,7 @@ function CvContent() {
        			<li>Excel</li>
        			<li>PowerPoint</li>
        		</ul>
-       		</li>
+			  </li>*/}
        	</ul>
        	<h3>Languages</h3>
        	<p><b>Native Language:</b> Portuguese</p>
