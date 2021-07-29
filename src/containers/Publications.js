@@ -18,7 +18,7 @@ function PublicationsContent() {
 		<Col lg={10}>
 			<Row>
 			<Col md={11}>
-			<h2>Publications</h2>
+			<h2>Publications, Projects, and Talks</h2>
 
 	       <br/>
 
@@ -35,6 +35,14 @@ function PublicationsContent() {
 	       </ul>	
 
 	       <h3>Talks</h3>
+		   <p><b> 2021 </b></p>
+		   <ul>
+			   <li><a href="https://github.com/AnaNeri/Aveiro-20210721" target="_blank" rel="noopener noreferrer">"Tutorial: Hands-on quantum computing with Qiskit"</a>, with Luis S. Barbosa (UMinho), U. Aveiro;</li>
+		   </ul>
+		   <p><b> 2020</b></p>
+		   <ul>
+			   <li><a href="https://github.com/AnaNeri/20201218_talk" target="_blank" rel="noopener noreferrer">"Introduction to Quantum Computation"</a>, Online;</li>
+		   </ul>
 	       <p><b> 2019 </b></p>
 	       <ul>
 	       	<li>"Sessão hands-on de experimentação no IBM Q. Desenvolvimento de programas quânticos em Qiskit", Módulos HPC e Computação Quântica de Computação Avançada, U.Minho (<a href = "https://github.com/AnaNeri/class_20191115" target="_blank" rel="noopener noreferrer">Notebook</a> e <a href={Pdf2019003} target="_blank" rel="noopener noreferrer">Slides</a>); </li>
