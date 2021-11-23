@@ -29,14 +29,15 @@ function AboutMeContent() {
 			</p>
 
 			<p>
-				I teach at the University of Minho, and I'm a member of the 
+				I teach Quantum Computing at the University of Minho.
+				{/* and I'm a member of the 
 				<a href="https://arca.di.uminho.pt/" target="_blank" rel="noopener noreferrer"> ARCA </a> 
 				and 
-				<a href="http://www.quantalab.org" target="_blank" rel="noopener noreferrer"> QuantaLab </a>
+				<a href="http://www.quantalab.org" target="_blank" rel="noopener noreferrer"> QuantaLab </a>*/}
 			</p>
 
 	        <p>
-				My current work focuses on the quantum computing field. 
+				My current work focuses on the quantum programming. 
 			</p>
     	</Col>
     	</Row>
