@@ -30,8 +30,9 @@ function FooterInfo(){
 		       <Col md={4}>
 		       <br/>
 		       <h4> Contact </h4>
-			   <p>ana.neri AT inl.int</p>
-		       <p>ana.i.neri AT inesctec.pt</p>
+			   ana.neri AT inl.int
+		       <br/>
+			   ana.i.neri AT inesctec.pt
 		       </Col>
 	       </Row>
 	       </Col>
