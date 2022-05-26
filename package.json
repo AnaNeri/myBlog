@@ -16,7 +16,7 @@
     "elliptic": "^6.5.4",
     "eventsource": "2.0.2",
     "follow-redirects": "^1.14.8",
-    "glob-parent": "5.1.2",
+    "glob-parent": "^6.0.2",
     "hosted-git-info": "^4.0.2",
     "hotswap": "^1.1.0",
     "immer": "^9.0.12",
