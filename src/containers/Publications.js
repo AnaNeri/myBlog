@@ -48,6 +48,10 @@ function PublicationsContent() {
 			<Accordion.Item eventKey="3">
 				<Accordion.Header><h3>Talks</h3></Accordion.Header>
 				<Accordion.Body>
+				<p><b> 2022 </b></p>
+				<ul>
+					<li><a href="http://wadt2022.web.ua.pt/WADTSlides/AnaNeri.pdf" target="_blank" rel="noopener noreferrer">"Formal Methods for Quantum Fault-Tolerant Programs"</a>, at <a href="http://wadt2022.web.ua.pt/" target="_blank" rel="noopener noreferrer"> WADT 2022</a></li>
+				</ul>
 				<p><b> 2021 </b></p>
 				<ul>
 					<li><a href="https://github.com/AnaNeri/Aveiro-20210721" target="_blank" rel="noopener noreferrer">"Tutorial: Hands-on quantum computing with Qiskit"</a>, with Luis S. Barbosa (UMinho), U. Aveiro;</li>
