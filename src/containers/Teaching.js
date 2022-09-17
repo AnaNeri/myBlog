@@ -15,6 +15,12 @@ function TeachingContent() {
 			<Col md={11}>
        <h2>Teaching</h2>
        <br/>
+       <p> <b> 2022-2023 </b></p>
+         <br/>
+         <ul>
+          <li> <a href="http://lmf.di.uminho.pt//quantum-computation-2223/" target="_blank" rel="noopener noreferrer"> Quantum Computing 2022-2023 </a>: Theoretical-Practical lectures</li>
+         </ul>
+       <br/>
        <p> <b> 2020-2021 </b></p>
          <br/>
          <ul>
