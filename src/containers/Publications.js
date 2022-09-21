@@ -9,6 +9,8 @@ import Pdf2019001 from '../docs/2019/VnC-2019.pdf';
 import Pdf2019002 from '../docs/2019/VC19.pdf';
 import Pdf2019003 from '../docs/2019/Sessão.pdf';
 import Accordion from 'react-bootstrap/Accordion';
+import Pdf2022001 from '../docs/2022/VnC-2022.pdf';
+import Pdf2022002 from '../docs/2022/VC22.pdf';
 
 function PublicationsContent() {
 	return(
@@ -50,7 +52,9 @@ function PublicationsContent() {
 				<Accordion.Body>
 				<p><b> 2022 </b></p>
 				<ul>
-					<li><a href="http://wadt2022.web.ua.pt/WADTSlides/AnaNeri.pdf" target="_blank" rel="noopener noreferrer">"Formal Methods for Quantum Fault-Tolerant Programs"</a>, at <a href="http://wadt2022.web.ua.pt/" target="_blank" rel="noopener noreferrer"> WADT 2022</a></li>
+					<li><a href="https://github.com/AnaNeri/Aveiro-202209" target="_blank" rel="noopener noreferrer">"Workshop: Quantum Computing with Qiskit"</a>, at U. Aveiro; </li>
+					<li>"Computação Quântica", Verão no Campus'22, U. Minho (<a href={Pdf2022001} target="_blank" rel="noopener noreferrer">Apresentação</a> e <a href={Pdf2022002} target="_blank" rel="noopener noreferrer">Guia</a>); </li>
+					<li><a href="http://wadt2022.web.ua.pt/WADTSlides/AnaNeri.pdf" target="_blank" rel="noopener noreferrer">"Formal Methods for Quantum Fault-Tolerant Programs"</a>, at <a href="http://wadt2022.web.ua.pt/" target="_blank" rel="noopener noreferrer"> WADT 2022</a>; </li>
 				</ul>
 				<p><b> 2021 </b></p>
 				<ul>
