@@ -133,11 +133,11 @@ function CvContent() {
 			<tbody>
 				<tr>
 					<td>English</td>
-					<td>C1</td>
-					<td>C1</td>
-					<td>C1</td>
-					<td>C1</td>
-					<td>C1</td>
+					<td>C1+</td>
+					<td>C1+</td>
+					<td>C1+</td>
+					<td>C1+</td>
+					<td>C1+</td>
 				</tr>
 				<tr>
 					<td>German</td>
