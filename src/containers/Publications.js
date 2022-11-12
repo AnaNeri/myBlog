@@ -33,9 +33,14 @@ function PublicationsContent() {
 				</Accordion.Body>
 			</Accordion.Item>
 			<Accordion.Item eventKey="1">
-				<Accordion.Header><h3>Preprint</h3></Accordion.Header>
+				<Accordion.Header><h3>Papers</h3></Accordion.Header>
 				<Accordion.Body>
-				<p>"<a href="https://ieeexplore.ieee.org/document/9557827" target="_blank" rel="noopener noreferrer">Compiling quantamorphisms for the IBM Q Experience</a>", with R. S. Barbosa (INL) and J. N. Oliveira (Univ. Minho), (October 2020) </p>
+				<p>A. Neri, R. S. Barbosa and J. N. Oliveira, 
+					"Compiling Quantamorphisms for the IBM Q Experience",
+					 in <i>IEEE Transactions on Software Engineering</i>, 
+					 vol. 48, no. 11, pp. 4339-4356, 1 Nov. 2022, 
+					 doi: <a href="https://ieeexplore.ieee.org/document/9557827"
+					 target="_black" rel="noopener noreferrer">10.1109/TSE.2021.3117515</a>.</p>
 				</Accordion.Body>
 			</Accordion.Item>
 			<Accordion.Item eventKey="2">
