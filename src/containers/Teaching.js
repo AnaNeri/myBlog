@@ -18,6 +18,7 @@ function TeachingContent() {
        <p> <b> 2022-2023 </b></p>
          <br/>
          <ul>
+          <li> <a href="http://lmf.di.uminho.pt/tecnicas-algoritmicas-computabilidade-2223/" target="_blank" rel="noopener noreferrer">Técnicas Algorítmicas e Computabilidade 2022-23</a></li>
           <li>  Engenharia Física Aplicada 2022-2023 </li>
           <li> <a href="http://lmf.di.uminho.pt//quantum-computation-2223/" target="_blank" rel="noopener noreferrer"> Quantum Computing 2022-2023 </a>: Theoretical-Practical lectures</li>
          </ul>
